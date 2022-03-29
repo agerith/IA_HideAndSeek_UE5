@@ -1,7 +1,6 @@
 # IA_HideAndSeek_UE5
 
 For Project :
-
 1.Generate the solution from the .uproject
 2.Open the solution with visual studio 2019 or later
 3.Open the map Persistent_01
