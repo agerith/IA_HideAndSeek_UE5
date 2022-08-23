@@ -33,7 +33,7 @@ just kill as many deer as possible.
 AICharacter and AIController, are the master classes of the AI, at spawn the
 controller we run the Behaviour Tree "NPC_BT".
 
-//IMAGE
+<img src="Pictures/BT_NPC.png">
 
 The BT is simple, in the left part if the AI has no more life it dies
 dies. It is a condition triggered by the AICharacter which sets the
@@ -44,12 +44,12 @@ the death animation, we wait 5 seconds and we destroy the AActor.
 Right part, we have an EQS Query that searches on the player see the AI
 with a LineTrace.
 
-//IMAGE
+<img src="Pictures/EnvQuery_FindPlayer.png">
 
 If a player is found, the AI is ordered to look for a new
 a new hiding place.
 
-//IMAGE
+<img src="Pictures/EnvQuery_FindHidingSpot.png">
 
 Detail: We generate a grid with a radius of 3000 and an offset of 500
 around the AI, we make a trace for each live position of the player,
@@ -65,14 +65,14 @@ Once the point is found the AI performs a MoveTo following the NavMesh.
 
 ### Animation IA
 
-//IMAGE
+<img src="Pictures/ABP_DeerDoeState.png">
 
 It's an anim graph with a state machine, with 3 variables
 (IsRunning, Speed, IsDead), I added a 2D blenspace and a cache
 to make the hit effect, which is managed with an AnimMontage we receive a
 hit.
 
-//IMAGE
+<img src="Pictures/ABP_DeerDoe.png">
 
 ### Player
 
@@ -89,7 +89,7 @@ model of the weapon and that the weapon is thinner than the one planned by the
 the animation, I added some IK to snapper the hand on the weapon and
 make the render more beautiful and realistic.
 
-//IMAGE
+<img src="Pictures/ABP_Player.png">
 
 ### Life Component
 
@@ -110,7 +110,10 @@ enter in Blueprint or even worse in
 C++. There is one point of damage of the weapon and one
 for the AI's life points.
 
-//IMAGE
+<img src="Pictures/DA_BP.png">
+<img src="Pictures/DA_AI.png">
+<img src="Pictures/DA_AttackPlayer.png">
+
 
 ### GameMode
 
@@ -132,7 +135,7 @@ I often need in my projects.
 
 ## Class diagram
 
-//IMAGE
+<img src="Pictures/ClassDiagram.png">
 
 ## Art and LD
 
@@ -140,4 +143,3 @@ I got some packs from the marketplace to make the scene look
 pretty scene. One of them was a pack of animals with animations. I then
 did the level design in a separate scene. And then I did the Level Art
 in the Art scene and the gameplay objects in the GP scene.
-
