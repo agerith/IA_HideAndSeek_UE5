@@ -1,5 +1,7 @@
 # IA_HideAndSeek_UE5
 
+<img src="Pictures/IAHideAndSeek_Gameplay.gif">
+
 ## Presentation
 
 The goal of the exercise was to program a Bot under Unreal 5 capable of
