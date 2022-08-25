@@ -2,6 +2,10 @@
 
 <img src="Pictures/IAHideAndSeek_Gameplay.gif">
 
+## Build
+
+[Package project](https://drive.google.com/file/d/1j21E6Ccq17z0X1FwSZwn3FBnxo9qvB2C/view?usp=sharing)
+
 ## Presentation
 
 The goal of the exercise was to program a Bot under Unreal 5 capable of
