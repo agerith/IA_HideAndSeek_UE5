@@ -21,14 +21,14 @@ just kill as many deer as possible.
 
 ## Technology used
 
-- Behavior Tree de l’AI
-- Environnement Query System
+- AI Behavior Tree
+- Environment Query System
 - AICharacter / FirstPersonCharacter
 - AIController / FirstPersonController
 - Anim Instance
 - UI Widget
 - GameMode
-- Tasks et Test pour l’IA
+- Tasks and Test for AI
 - Ballistic
 - LifeComponent
 
